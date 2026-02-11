@@ -1,4 +1,18 @@
 .topbar {
   background-color: lavender;
   padding: 10px;
+  border-radius: 13px;
+}
+
+.home {
+  content: url("images/home.png");
+    background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit; /* Inherit font styles from parent elements */
+  cursor: pointer; /* Ensures the cursor changes to a hand icon */
+  /* The next line removes OS-specific styling for consistency across browsers */
+  -webkit-appearance: none; 
+  appearance: none; 
 }
